@@ -7,11 +7,4 @@ This index will help you find different projects more easily:
 This project involves the creation of an **interactive map** that visualizes the locations of volcanoes in Spain alongside global population data. The map provides a user-friendly interface to explore volcanic activity and demographic distribution through different layers. Users can view volcanoes marked by their elevation and interact with a global population density map.
 
  - **[Finger-Gesture-Recognition](https://github.com/esmartdie/Finger-Gesture-Recognition)**
-This project s a Python-based application that utilizes OpenCV and MediaPipe to detect and interpret hand gestures in real-time.
-
-Key Features:
-- Real-Time Hand Tracking: Employs MediaPipe to accurately detect and track hand landmarks from live video input.
-- Finger State Detection: Determines the state (up or down) of each finger by analyzing the positions of key landmarks.
-- Gesture-Based Controls: Implements specific gestures to trigger actions, such as activating a "printing module" when the thumb is raised.
-- Extensibility: Designed to allow easy addition of new gestures and corresponding actions for various applications.
-
+This project s a Python-based application that leverages OpenCV and MediaPipe to detect and interpret hand gestures in real-time. It uses MediaPipe's hand-tracking capabilities to accurately identify and follow hand landmarks from live video input. By analyzing the relative positions of these landmarks, the system determines the state of each finger (e.g., up or down) and recognizes specific gestures. One key feature is the integration of gesture-based controls, such as activating a module when a particular gesture, like raising the thumb, is detected. The project is designed for extensibility, allowing developers to easily add new gestures and corresponding actions. This application showcases the practical use of computer vision and machine learning techniques to enable interactive gesture control systems. For more information, visit the repository.
